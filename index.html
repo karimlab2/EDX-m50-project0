@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: blue;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+
+}
+  .title { text-align: center }
+</style>
+</head>
+<body>
+  <!-- This example use media queries to stack the topnav vertically when the screen size is 600px or less.
+ -->
+
+
+<ul class="topnav">
+  <li><a class="active" href="team-presentation.html">Team Presentation</a></li>
+  <li><a href="players-presentation.html">Players Prsesentation</a></li>
+  <li> <a href="gallery.html">Gallery</a></li>
+  <li><a href="news.html">Latest News</a></li>
+  <li class="right"><a  href="about.html">About</a></li>
+</ul>
+
+<div class="title">
+
+
+<h1>The Golden State Warriors</h1>
+<img src="images/Golden-State-Warriors-logo.png" width="200px;" text-align="center">
+</div>
+<h2>Content of the site</h2>
+<div style="padding:0 20px;">
+  On this website we offer a short presentation of one of the best team in
+ this decade. GSW. Presenting us with some information that we hope will be
+ useful to you. <br>
+ Next are the topics.
+
+</div>
+
+<ol>
+    <li> <a href="team-presentation.html">Team Presentation</a></li>
+    <p>A Brief presentation of the GSW: Date of creation, Owner, etc</p>
+    <li> <a href="players-presentation.html">Player Prsesentation</a></li>
+    <p>The GSW players of this season: 2019-2020. Some information about their position, height and origins</p>
+    <li> <a href="gallery.html">Trophies</a></li>
+    <p>Some beautiful photos of some great moments</p>
+    <li> <a href="news.html">Latest News</a></li>
+    <p> We put the latest news and we distinguish between the true ones from the  doubtful or fake ones  </p>
+</ol>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.news-box{
+width: 100%;
+margin : 20px 0;
+padding : 10 10%;
+border :  5px solid #xdd;
+border-sizing : border-box;
+}
+.news {
+  @extend .news-box;
+  background-color: #00aaddaa;
+
+}
+.fake {
+    @extend .news-box;
+    background-color:  #ddaa00aa;
+}

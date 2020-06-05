@@ -1,0 +1,20 @@
+.news-box, .fake, .news {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+  border: 5px solid #xdd;
+  border-sizing: border-box;
+}
+
+.news {
+  background-color: #00aaddaa;
+  border : 3px dotted yellow;
+}
+
+.fake {
+  background-color: #ddaa00aa;
+  border : 3px dotted red;
+
+}
+
+/*# sourceMappingURL=news.css.map */

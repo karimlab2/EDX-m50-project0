@@ -1,0 +1,16 @@
+table.myTable {
+  border: 2px solid #1C6EA4;
+  width: 80%;
+  text-align: left;
+}
+table.myTable td {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+  font-size: 14px;
+
+}
+table.myTable thead {
+  background: #1C6EA4;
+  font-weight: bold;
+  color: #FFFFFF;
+}

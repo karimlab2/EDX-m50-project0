@@ -1,0 +1,25 @@
+$color: #f1f1f1;
+ol {
+	list-style-type: lower-latin;
+	margin: 5;
+	padding: 5;
+	width: 500px;
+	background-color: $color;
+	li {
+		a {
+			&:hover {
+				background-color: Green;
+				color: white;
+			}
+		}
+	}
+}
+ol.a {
+	list-style-type: none;
+	color: $color;
+	text-decoration: none;
+}
+#email {
+	position: absolute;
+	bottom: 0;
+}
